@@ -1,6 +1,6 @@
 function taxable(state,taxExempt){
-   (IA,taxExempt === false) {
-return 'is taxable'
+   if(state==IA && taxExempt == false) {
+   return 'is taxable'
   }
 }
 function isVehicle(hasWheels,canFly,canSwim){
@@ -15,5 +15,6 @@ return 'is vehicle'
  (canSwim, === true, hasWheels, canFly === false);
 return 'is vehicle'
  (canSwim, canFly === true, hasWheels === false);
+
 
 
